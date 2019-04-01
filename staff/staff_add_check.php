@@ -53,8 +53,8 @@
                 <input type="hidden" name="name" value="$staff_name">
                 <input type="hidden" name="pass" value="$staff_pass">
                 <br>
-                <input type="button" value="戻る" onclick="history.back()">
-                <input type="submit" name="submit" value="OK">
+                <button onclick="history.back()">戻る</button>
+                <button type="submit">OK</button>
             </form>
 eot;
             print $msg;

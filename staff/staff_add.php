@@ -19,7 +19,7 @@
         <label for="password2">パスワードを入力(確認)</label><br>
         <input id="password2" type="password" name="pass2" style="width: 100px;">
         <br>
-        <input type="button" value="戻る" onclick="history.back()">
+        <button onclick="history.back()">戻る</button>
         <input type="submit" name="submit" value="OK">
     </form>
     <script>
